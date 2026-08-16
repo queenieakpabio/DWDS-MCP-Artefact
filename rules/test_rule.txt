@@ -1,0 +1,11 @@
+PROPERTIES
+ID c1cc5967-d1af-4b8d-b069-d151500798c0
+
+IN EFFECT
+IN CA, FROM 2020-01-01T00:00, TO 2030-01-01T00:00, TZ America/Toronto
+
+CONDITIONS
+hs_code='8501.10' : [1]
+
+ASSERTIONS
+qualifies := 'yes': [1]

@@ -1,0 +1,14 @@
+PROPERTIES
+ID e33fb003-84ab-4aef-b631-4caa8fd22d70
+
+IN EFFECT
+IN AU, FROM 2021-01-01T00:00, TO 2099-12-31T23:59, TZ UTC
+
+CONDITIONS
+non_originating_material_used_for_originating='true': [01, 00, 00]
+originating_material_used_in_final_product='true': [01, 00, 00]
+calculating_non_originating_value='true': [01, 00, 00]
+
+ASSERTIONS
+value_of_non_originating_materials := 'excludes_absorbed_value': [01, 00, 00]
+absorption_rule := 'applied': [01, 00, 00]

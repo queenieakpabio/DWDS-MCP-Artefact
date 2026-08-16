@@ -1,0 +1,15 @@
+PROPERTIES
+ID c1cc5967-d1af-4b8d-b069-d151500798c0
+
+IN EFFECT
+IN AU, FROM 2021-01-01T00:00, TO 2099-12-31T23:59, TZ UTC
+
+CONDITIONS
+product_type='single_item': [01, 00, 00]
+product_type='composite_kit': [00, 01, 00]
+shipment_has_identical_products='true': [00, 00, 01]
+
+ASSERTIONS
+unit_of_qualification := 'the_product_itself': [01, 00, 00]
+unit_of_qualification := 'the_composite_item_under_one_hs_code': [00, 01, 00]
+unit_of_qualification := 'each_identical_product_assessed_separately': [00, 00, 01]
