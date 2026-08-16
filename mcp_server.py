@@ -44,7 +44,7 @@ def invoke_rule(document_json: str, rule_id: str, rule_rev: int) -> str:
 
     output = run_binary("invoke", [doc_path, rule_id, str(rule_rev)])
 
-    # Extract just the asserts= line for a cleaner AI-facing result
+    # Get just lists of assertions from the result
     match = re.search(r"asserts=(\[.*\])", output, re.DOTALL)
     conclusion = match.group(1) if match else output
 
