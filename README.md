@@ -1,4 +1,4 @@
-# 7005SCN-Individual-Research-Project
+# DWDS-MCP-Artefact
 # AfCFTA RoO — DWDS & MCP Prototype
 
 Artefact for 7005SCN Individual Research Project.
